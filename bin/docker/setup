@@ -1,0 +1,5 @@
+#!/bin/bash
+docker-compose build
+docker-compose run web mix deps.get
+docker-compose run web mix ecto.reset
+docker-compose run -w /opt/luggage/assets web yarn

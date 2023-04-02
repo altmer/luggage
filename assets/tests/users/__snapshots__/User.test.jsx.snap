@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders user information 1`] = `
+<div
+  className="user-badge"
+>
+  <div
+    className="user-badge-avatar"
+  >
+    <a
+      href="/users/1/show"
+      onClick={[Function]}
+    >
+      <span>
+        <div
+          className="user-avatar user-avatar-placeholder 2"
+        >
+          JD
+        </div>
+      </span>
+    </a>
+  </div>
+  <div
+    className="user-badge-content"
+  >
+    <a
+      className="user-badge-name"
+      href="/users/1/show"
+      onClick={[Function]}
+    >
+      John Doe
+    </a>
+  </div>
+</div>
+`;

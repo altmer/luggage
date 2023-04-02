@@ -1,0 +1,28 @@
+## `msgid`s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove `msgid`s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use `mix gettext.extract --merge` or `mix gettext.merge`
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: de\n"
+
+#: lib/luggage/email.ex:18
+msgid "Password reset"
+msgstr "Passwort zurücksetzen"
+
+#: web/templates/layout/email.html.eex:691
+msgid "Hello, %{name}!"
+msgstr "Hallo, %{name}!"
+
+#: web/templates/email/password_reset.html.eex:44
+#: web/templates/email/password_reset.html.eex:48
+msgid "Reset password"
+msgstr "Passwort zurücksetzen"
+
+#: web/templates/email/password_reset.html.eex:22
+msgid "We have received a request to change your password. If it wasn't you, just ignore this message, your password will remain unchanged."
+msgstr "Wir haben eine Anfrage erhalten, um deinen Passwort zu ändern. Wenn es nicht du warst, ignoriere einfach diese Nachricht, dein Passwort bleibt unverändert."

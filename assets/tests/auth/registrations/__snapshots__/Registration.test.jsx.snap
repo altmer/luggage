@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders form 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row justify-content-center"
+  >
+    <div
+      className="col-md-12 col-lg-8 col-xl-6"
+    >
+      <form
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="first_name"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Name
+            </span>
+          </label>
+          <input
+            className="form-control"
+            name="name"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Email
+            </span>
+          </label>
+          <input
+            className="form-control"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="password"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Password
+            </span>
+          </label>
+          <input
+            className="form-control"
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="password_confirmation"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Password Confirmation
+            </span>
+          </label>
+          <input
+            className="form-control"
+            name="password_confirmation"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group "
+        >
+          <button
+            className="btn btn-outline-success btn-lg btn-block"
+            onClick={[Function]}
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Save
+            </span>
+          </button>
+        </div>
+        <div
+          className="form-group "
+        >
+          <a
+            className="btn btn-primary btn-google btn-lg btn-block"
+            href="/auth/google"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Google
+            </span>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it renders form with errors 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row justify-content-center"
+  >
+    <div
+      className="col-md-12 col-lg-8 col-xl-6"
+    >
+      <form
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="first_name"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Name
+            </span>
+          </label>
+          <input
+            className="form-control"
+            name="name"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <span
+            className="error-message"
+          >
+            one name error, second error
+          </span>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Email
+            </span>
+          </label>
+          <input
+            className="form-control"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="email"
+            value=""
+          />
+          <span
+            className="error-message"
+          >
+            email error
+          </span>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="password"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Password
+            </span>
+          </label>
+          <input
+            className="form-control"
+            name="password"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="password"
+            value=""
+          />
+          <span
+            className="error-message"
+          >
+            password error
+          </span>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="password_confirmation"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Password Confirmation
+            </span>
+          </label>
+          <input
+            className="form-control"
+            name="password_confirmation"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="password"
+            value=""
+          />
+          <span
+            className="error-message"
+          >
+            password confirmation error
+          </span>
+        </div>
+        <div
+          className="form-group "
+        >
+          <button
+            className="btn btn-outline-success btn-lg btn-block"
+            onClick={[Function]}
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Save
+            </span>
+          </button>
+        </div>
+        <div
+          className="form-group "
+        >
+          <a
+            className="btn btn-primary btn-google btn-lg btn-block"
+            href="/auth/google"
+          >
+            <span
+              className={undefined}
+              style={undefined}
+            >
+              Google
+            </span>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

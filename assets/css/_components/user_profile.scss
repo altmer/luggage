@@ -1,0 +1,155 @@
+.user-profile {
+  .user-profile-header {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 1em;
+
+    .user-avatar {
+      height: 100px;
+      width: 100px;
+    }
+
+    .avatar-upload {
+      height: 100px;
+      width: 100px;
+    }
+
+    .user-avatar-placeholder {
+      font-size: 32px;
+      line-height: 32px;
+      padding-top: 34px;
+    }
+  }
+
+  .user-profile-name {
+    font-size: 2em;
+  }
+
+  .user-profile-bio {
+    color: $text-secondary;
+  }
+
+  .user-edit-controls {
+    .btn {
+      margin-right: 1ch;
+    }
+  }
+}
+
+.user-avatar {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+
+  &.clickable-area {
+    cursor: pointer;
+  }
+}
+
+.user-avatar-placeholder {
+  color: $white;
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 8px;
+  text-align: center;
+
+  &.user-color-1 {
+    background-color: $user-background-1;
+  }
+
+  &.user-color-2 {
+    background-color: $user-background-2;
+  }
+
+  &.user-color-3 {
+    background-color: $user-background-3;
+  }
+
+  &.user-color-0 {
+    background-color: $user-background-0;
+  }
+}
+
+.avatar-upload {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.avatar-overlay {
+  background: $image-overlay;
+  border-radius: 100%;
+  bottom: 0;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+
+  &:hover {
+    img {
+      opacity: 1;
+    }
+  }
+
+  img {
+    height: 32px;
+    margin-top: 34px;
+    opacity: .6;
+    width: 32px;
+  }
+}
+
+.user-profile-tabs {
+  margin-top: 4rem;
+
+  .nav-tabs {
+    border-bottom: 0;
+    padding-bottom: 1rem;
+  }
+
+  .nav-item {
+    margin-right: 2ch;
+
+    a {
+      border: 0;
+      border-bottom: 2px solid;
+      border-color: $border-grey;
+      color: $text-secondary;
+
+      &:hover {
+        color: $cta;
+      }
+    }
+
+    .active {
+      border-color: $cta;
+      color: $cta;
+    }
+  }
+}
+
+.user-profile-tab {
+  background-color: $background-grey;
+  min-height: 350px;
+}
+
+.user-profile-loading {
+  .user-avatar-mockup,
+  .user-name-mockup,
+  .user-description-mockup {
+    background-color: $background-grey;
+  }
+
+  .user-name-mockup {
+    height: 1.5em;
+    width: 15ch;
+  }
+
+  .user-description-mockup {
+    height: 1em;
+    margin-top: 1em;
+    width: 20ch;
+  }
+}

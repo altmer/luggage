@@ -1,0 +1,18 @@
+.landing {
+  .landing-welcome {
+    padding-bottom: 2em;
+
+    .landing-text {
+      color: $text-secondary;
+      margin-bottom: 2em;
+    }
+
+    a {
+      margin-right: 1ch;
+    }
+
+    .landing-header {
+      margin-top: 1em;
+    }
+  }
+}

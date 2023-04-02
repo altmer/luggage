@@ -1,0 +1,28 @@
+## This file is a PO Template file.
+##
+## `msgid`s here are often extracted from source code.
+## Add new translations manually only if they're dynamic
+## translations that can't be statically extracted.
+##
+## Run `mix gettext.extract` to bring this file up to
+## date. Leave `msgstr`s empty as changing them here as no
+## effect: edit them in PO (`.po`) files instead.
+msgid ""
+msgstr ""
+
+#: lib/luggage/email.ex:18
+msgid "Password reset"
+msgstr ""
+
+#: web/templates/layout/email.html.eex:691
+msgid "Hello, %{name}!"
+msgstr ""
+
+#: web/templates/email/password_reset.html.eex:44
+#: web/templates/email/password_reset.html.eex:48
+msgid "Reset password"
+msgstr ""
+
+#: web/templates/email/password_reset.html.eex:22
+msgid "We have received a request to change your password. If it wasn't you, just ignore this message, your password will remain unchanged."
+msgstr ""

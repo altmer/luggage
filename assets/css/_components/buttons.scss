@@ -1,0 +1,15 @@
+.btn-google {
+  background-color: $google;
+  border-color: $google;
+  color: $white;
+}
+
+.btn-google:hover,
+.btn-google:focus,
+.btn-google:active,
+.btn-google.active,
+.btn-google:hover:active {
+  background-color: darken($google, 10%);
+  border-color: darken($google, 10%);
+  color: $light-grey;
+}

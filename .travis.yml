@@ -1,0 +1,25 @@
+sudo: false
+language: elixir
+elixir:
+  - 1.4.2
+otp_release:
+  - 19.0
+env:
+  - MIX_ENV=test
+script:
+  - mix credo --strict
+  - mix test --exclude expensive
+  - mix test --only expensive
+  - cd assets && yarn && yarn test
+services:
+  - postgresql
+before_script:
+  - mix do ecto.setup
+notifications:
+  slack: hamstertravel:0cUdYv5PqtYYExONQ7d4SJg5
+cache: yarn
+before_install:
+  - mix local.hex --force
+  - mix deps.get
+  - nvm install 7.3.0
+  - npm i -g yarn

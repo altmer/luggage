@@ -1,0 +1,120 @@
+.post-page {
+  padding-bottom: 5em;
+}
+
+.posts,
+.post-show {
+  .post-body {
+    white-space: pre-line;
+  }
+
+  .post-date,
+  .secondary-link {
+    color: $text-secondary;
+    font-size: .8em;
+    margin-bottom: .5em;
+  }
+}
+
+.posts {
+  background-color: $background-grey;
+  padding: 2em 0;
+
+  .post {
+    background-color: $white;
+    border: 1px solid $border-grey;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px $shadow-grey;
+    margin-bottom: 3em;
+    max-width: 66ch;
+    padding: 15px;
+
+  }
+
+  .post-title {
+    a {
+      color: inherit;
+    }
+  }
+}
+
+.post-show {
+  max-width: 66ch;
+
+  .post-author {
+    font-size: 1.2em;
+  }
+
+  .user-badge-avatar img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .post-title {
+    margin-top: .8em;
+  }
+
+  .post-body {
+    font-size: 18px;
+    letter-spacing: -.003em;
+    line-height: 1.58;
+    margin-top: 1em;
+  }
+
+  .post-actions {
+    a {
+      margin-right: 1ch;
+    }
+  }
+}
+
+.comments-show {
+  .comments-show-title {
+    margin-top: 1em;
+  }
+
+  .post-comments-empty {
+    color: $text-secondary;
+    font-size: 18px;
+    margin-top: .5em;
+  }
+
+  .post-comment {
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+
+  .post-comment-author {
+    margin-bottom: .5em;
+  }
+
+  .post-comment-date {
+    color: $text-secondary;
+    font-size: .8em;
+    margin-bottom: .5em;
+  }
+
+  .add-comment {
+    margin-top: 2em;
+
+    input {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.post-search-item {
+  overflow-x: hidden;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-overflow: ellipsis;
+
+  .user-avatar {
+    margin-right: 1ch;
+    display: inline-block;
+  }
+}
+
+.posts-empty-state {
+  min-height: 150px;
+}

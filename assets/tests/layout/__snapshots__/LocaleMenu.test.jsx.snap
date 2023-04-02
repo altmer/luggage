@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders locale menu 1`] = `
+<li
+  className="locale-menu nav-item dropdown"
+>
+  <a
+    aria-expanded={false}
+    aria-haspopup="true"
+    className="nav-link dropdown-toggle"
+    color="secondary"
+    data-toggle="dropdown"
+    onClick={[Function]}
+  >
+    RU
+  </a>
+  <div
+    aria-hidden={true}
+    className="dropdown-menu dropdown-menu-right"
+    role="menu"
+    tabIndex="-1"
+  >
+    <button
+      className="locale-link-en dropdown-item"
+      onClick={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      EN
+    </button>
+    <button
+      className="locale-link-de dropdown-item"
+      onClick={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      DE
+    </button>
+    <button
+      className="locale-link-ru dropdown-item"
+      onClick={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      RU
+    </button>
+  </div>
+</li>
+`;

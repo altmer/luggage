@@ -1,0 +1,20 @@
+version: '2'
+services:
+  database:
+    image: postgres:9.6
+    ports:
+      - '25432:5432'
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: luggage
+    command: mix phx.server
+    links:
+      - database
+    volumes:
+      - .:/opt/luggage
+    ports:
+      - '23000:4000'
+    environment:
+      POSTGRES_HOST: database
